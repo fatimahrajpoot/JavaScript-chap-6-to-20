@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+        // 1
+        // function initializeArray() {
+        //     var multiArray = [[], []];
+
+        //     console.log(multiArray);
+        // }
+
+        // 2
+        // var matrix = [
+        // [0, 1, 2, 3],
+        // [1, 0, 1, 2],
+        // [2, 1, 0, 1]
+        // ];
+
+        // console.log(matrix);
+
+        // 3
+        // for (var i = 1; i <= 10; i++) {
+        // console.log(i);
+        // }
+
+        // 4
+        // var number = parseInt(prompt('Enter a number to show its multiplication table: '));
+        // var length = parseInt(prompt('Enter length multiplication table: '));
+
+        // for (var i = 1; i <= length; i++) {
+        // var result = i * number;
+        // console.log(`${number} x ${i} = ${result}`);
+        // }
+
+        // 5
+        // var fruits = ["apple", "banana", "mango", "orange", "strawberry"];
+
+        // for (var i = 0; i < fruits.length; i++) {
+        // console.log(fruits[i]);
+        // }
+
+        // 6
+        // counting (1 to 15)
+        // var countingSeries = Array.from({length: 15 }, (_, i) => i + 1);
+        // console.log(countingSeries.join(','));
+
+        // Reverse counting ( 10 to 1)
+        // var reverseCountingSeries = Array.from({ length: 10}, (_, i) => 10 - i);
+        // console.log(reverseCountingSeries.join(','));
+
+        // Even numbers (0 to 20)
+        // var evenSeries = Array.from({length: 11}, (_,i) => i * 2);
+        // console.log(evenSeries.join(','));
+
+        // Odd numbers (1 to 19)
+        // var oddSeries = Array.from({length:10}, (_,i) => i * 2 + 1);
+        // console.log(oddSeries.join(','));
+
+        // Series with 'K' (2k to 20k)
+        // var kSeries = Array.from({length:10}, (_, i) => (i + 1) * 2 + 'k' );
+        // console.log(kSeries.join(','));
+
+        // 7
+        // Given array
+        // var A = ["cake", "apple pie", "cookie", "chips", "patties"];
+
+        // var user_input = prompt("Enter an item to search:");
+
+        // if (A.includes(user_input)) {
+        // alert(`${user_input} found in the list.`);
+        // } else {
+        // alert(`${user_input} not found in the list.`);
+        // }
+
+        // 8
+        // var A = [24, 53, 78, 91, 12];
+        // var largestNumber = Math.max(...A);
+
+        // console.log(`The largest number is: ${largestNumber}`);
+
+        // 9
+        // var A = [24, 53, 78, 91, 12];
+        // var smallestNumber = Math.min(...A)
+        // console.log(`The smallest number is: ${smallestNumber}`);
+
+        // 10
+        var result = '';
+
+        for (var i = 1; i <= 100; i++) {
+        if (i % 5 === 0) {
+        result += i + "\n";
+        }
+        }
+
+        alert(result);
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

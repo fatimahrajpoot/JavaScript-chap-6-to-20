@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+        // 1
+        // var studentNames = [];
+
+        // 2
+        // var studentNames = new Object();
+
+        // 3
+        // var fruits = ["apple", "banana", "orange"];
+
+        // 4
+        // var numbers = [1, 2, 3, 4, 5];
+
+        // 5
+        // var numberOfElements = 5;
+        // var booleanArray = new Array(numberOfElements).fill(false);
+        // console.log(booleanArray);
+
+
+        // 6
+        // var mixedArray = [1, "hello", 3.14, true];
+
+        // 7
+        // var qualifications = [
+        // "SSC",
+        // "HSC",
+        // "BCS",
+        // "BS",
+        // "BCOM",
+        // "MS",
+        // "M. Phil.",
+        // "PhD"
+        // ];
+
+
+        // console.log(qualifications);
+
+        // 8
+        // var studentNames = ["Alice", "Bob", "Charlie"];
+        // var scores = [320, 230, 480]; 
+
+        // var totalMarks = 500;
+        // var percentages = scores.map((score) => ((score / totalMarks) * 100).toFixed(2));
+
+        // for (let i = 0; i < studentNames.length; i++) {
+        // console.log(`Student: ${studentNames[i]}, Score: ${scores[i]}, Percentage: ${percentages[i]}%`);
+        // }
+
+
+        // 9
+        // var colorArray = ["Red", "Green", "Blue"];
+
+        // console.log("Initial array:", colorArray);
+
+        // var colorToAddAtBeginning = prompt("Enter a color to add at the beginning:");
+        // colorArray.unshift(colorToAddAtBeginning);       
+
+        // var colorToAddAtEnd = prompt("Enter a color to add at the end:");
+        // colorArray.push(colorToAddAtEnd);
+
+        // colorArray.unshift("Yellow", "Orange");
+
+        // colorArray.shift();
+
+        // colorArray.pop();
+
+        // var indexToAdd = parseInt(prompt("Enter an index to add a color:")); 
+        // var colorToAddAtIndex = prompt("Enter a color to add at that index:");
+        // colorArray.splice(indexToAdd, 0, colorToAddAtIndex);
+
+        // var indexToDelete = parseInt(prompt("Enter an index to delete color(s):"));
+        // var numColorsToDelete = parseInt(prompt("Enter the number of colors to delete:"));
+
+        // console.log("Updated array:", colorArray);
+
+        // 10
+        // var studentScores = [85, 70, 92, 78, 60];
+
+        // studentScores.sort((a, b) => a - b);
+
+        // console.log("Sorted scores (ascending):", studentScores);
+
+        // 11
+        // var cities = ["Karachi", "Lahore", "Islamabad", "Quetta", "Peshawar"];
+
+        // var selectedCities = [];
+
+        // selectedCities.push(...cities.slice(0, 2));
+
+        // console.log("Selected cities:", selectedCities);
+
+        // 12
+        // var arr = ["This", "is", "my", "cat"];
+        // var result = arr.join(" "); 
+        // console.log(result); 
+
+        // 13
+        // var queue = [];
+
+        // function enqueue(element) {
+        // queue.push(element);
+        // }
+
+        // function dequeue() {
+        // if (queue.length === 0) {
+        // console.log("Queue is empty");
+        // return;
+        // }
+        // return queue.shift();
+        // }
+
+        // enqueue('keyboard');
+        // enqueue('mouse');
+        // enqueue('printer');
+        // enqueue('monitor');
+
+        // console.log(dequeue()); 
+        // console.log(dequeue()); 
+        // console.log(dequeue()); 
+        // console.log(dequeue()); 
+
+        // 14
+        // var stack = [];
+
+        // function pushToStack(element) {
+        // stack.push(element);
+        // }
+ 
+        // function popFromStack() {
+        // if (stack.length === 0) {
+        // console.log("Stack is empty");
+        // return;
+        // }
+        // return stack.pop();    
+        // }
+
+        // pushToStack('keyboard');
+        // pushToStack('mouse');
+        // pushToStack('printer');
+        // pushToStack('monitor');
+
+        // console.log(popFromStack()); // Outputs: monitor
+        // console.log(popFromStack()); // Outputs: printer
+        // console.log(popFromStack()); // Outputs: mouse
+        // console.log(popFromStack()); // Outputs: keyboard
+
+        // 15
+        // Phone manufacturers array
+        var manufacturers = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
+
+        document.write("<select id='manufacturerSelect'>");
+        for (var manufacturer of manufacturers) {
+        document.write(`<option value='${manufacturer}'>${manufacturer}</option>`);
+        }
+        document.write("</select>");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

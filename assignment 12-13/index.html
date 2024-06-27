@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+        // 1
+//         function checkCharacterType(ch) {
+//     if (!isNaN(ch * 1)) {
+//         return 'Numeric';
+//     } else if (ch >= 'A' && ch <= 'Z') {
+//         return 'Uppercase';
+//     } else if (ch >= 'a' && ch <= 'z') {
+//         return 'Lowercase';
+//     } else {
+//         return 'Invalid character';
+//     }
+// }
+
+// // Example usage:
+// console.log(checkCharacterType('A')); // Output: Uppercase
+// console.log(checkCharacterType('a')); // Output: Lowercase
+// console.log(checkCharacterType('5')); // Output: Numeric
+// console.log(checkCharacterType('#')); // Output: Invalid character
+
+// 2
+function compareIntegers(num1, num2) {
+    if (num1 > num2) {
+        console.log(`${num1} is greater than ${num2}`);
+    } else if (num1 < num2) {
+        console.log(`${num1} is less than ${num2}`);
+    } else {
+        console.log(`${num1} is equal to ${num2}`);
+    }
+}
+
+var firstNumber = parseInt(prompt("Enter the first integer:"), 10);
+var secondNumber = parseInt(prompt("Enter the second integer:"), 10);
+compareIntegers(firstNumber, secondNumber);
+
+
+
+// 3
+// var number = parseFloat(prompt("Enter a number:"));
+// if (number > 0) {
+//     console.log("The number is positive");
+// } else if (number < 0) {
+//     console.log("The number is negative");
+// } else {
+//     console.log("The number is zero");
+// }
+
+
+// 4
+// var input = prompt("Enter a character:");
+
+// if (input.length === 1) {
+//     const char = input.toLowerCase();
+//     if (char === 'a' || char === 'e' || char === 'i' || char === 'o' || char === 'u') {
+//         console.log("It's a vowel");
+//     } else {
+//         console.log("It's not a vowel");
+//     }
+// } else {
+//     console.log("Please enter a single character.");
+// }
+
+
+// 5
+
+// var correctPassword = "mySecretPassword";
+
+// var userPassword = prompt("Please enter your password:");
+
+
+// if (!userPassword) {
+//   alert("Please enter your password.");
+// } else if (userPassword === correctPassword) {
+//   alert("Correct! The password you entered matches the original password.");
+// } else {
+//   alert("Incorrect password.");
+// }
+
+
+// 6
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+//     greeting = "Good day";
+// } else {
+//     greeting = "Good evening";
+// }
+
+
+// 7
+// var userInput = prompt("Enter the time (24-hour format, e.g., 1900):");
+// var hour = parseInt(userInput);
+
+// let greeting;
+
+// if (hour >= 0 && hour < 1200) {
+//     greeting = "Good morning";
+// } else if (hour >= 1200 && hour < 1800) {
+//     greeting = "Good afternoon";
+// } else {
+//     greeting = "Good evening";
+// }
+
+// console.log(greeting);
+
+
+
+
+    </script>
+</body>
+</html>
